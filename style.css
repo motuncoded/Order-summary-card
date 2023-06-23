@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,700;1,200;1,700&family=Red+Hat+Display:ital,wght@0,500;0,700;1,500;1,700;1,900&display=swap');
+
+:root {
+	--pale-blue: hsl(225, 100%, 94%);
+	--bright-blue: hsl(245, 75%, 52%);
+	--Pale-blue: hsl(225, 100%, 98%);
+	--saturated-blue: hsl(224, 23%, 55%);
+	--dark-blue: hsl(223, 47%, 23%);
+	--hover-blue: hsl(245, 84%, 69%);
+	--white: hsl(225, 100%, 100%);
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img,
+svg {
+	max-width: 100%;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.25rem 0;
+	background-color: var(--Pale-blue);
+}
+.inline-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-height: 100vh;
+	font-size: 16px;
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	line-height: 1.5;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: var(--pale-blue);
+	background-position: center;
+	background-image: url('/images/pattern-background-desktop.svg');
+}
+
+.order-summary-container {
+	width: 25.75rem;
+	height: 100%;
+	background-color: var(--white);
+	box-shadow: 0px 35px 5px var(--pale-blue);
+	border-radius: 1rem;
+}
+.order-summary-image {
+	border-radius: 1rem;
+}
+.order-summary-image > img {
+	max-width: 100%;
+	border-radius: 1rem 1rem 0 0rem;
+}
+.order-summary-description {
+	width: 20rem;
+	margin: auto;
+}
+.order-summary-heading {
+	color: var(--dark-blue);
+	padding: 0.5rem;
+	font-weight: 700;
+}
+.order-summary-paragraph {
+	font-size: 1rem;
+	color: var(--saturated-blue);
+}
+.order-summary-wrapper {
+	max-width: 20rem;
+	margin: 1.5rem auto;
+	border-radius: 1rem;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: var(--pale-blue);
+}
+.icon > svg {
+	max-width: 100%;
+}
+.order-summary-tag {
+	font-size: 0.8rem;
+	font-weight: 900;
+	color: var(--dark-blue);
+}
+.order-summary-prize {
+	font-size: 0.75rem;
+	color: var(--saturated-blue);
+}
+
+.order-summary-link {
+	font-size: 0.7rem;
+}
+.order-summary-link:hover {
+	text-decoration: none;
+}
+.order-summary-button {
+	width: 20rem;
+	margin: auto;
+}
+.order-summary-primary-button {
+	background-color: var(--bright-blue);
+	outline: none;
+	border: none;
+	color: var(--Pale-blue);
+	font-size: 0.75rem;
+	padding: 0.75rem;
+	width: 100%;
+	font-weight: 700;
+	border-radius: 0.5rem;
+	box-shadow: 0px 8px 5px var(--pale-blue);
+}
+.order-summary-primary-button:hover {
+	transition: all 0.3s ease-in-out;
+	background-color: var(--hover-blue);
+}
+.order-summary-secondary-button {
+	font-size: 0.75rem;
+	font-weight: 700;
+
+	color: var(--saturated-blue);
+	padding: 1rem;
+	text-decoration: none;
+}
+.order-summary-secondary-button:hover {
+	color: var(--dark-blue);
+}
+
+@media only screen and (max-width: 400px) {
+	main {
+		background-image: url('/images/pattern-background-mobile.svg');
+	}
+	.order-summary-container {
+		width: 22rem;
+	}
+	.order-summary-wrapper {
+		width: 17.43rem;
+	}
+	.order-summary-description {
+		padding: 0;
+		width: 17.43rem;
+	}
+	.order-summary-heading {
+		font-size: 1.15rem;
+	}
+	.order-summary-paragraph {
+		font-size: 1.05rem;
+	}
+	.order-summary-button {
+		width: 17.43rem;
+	}
+}
