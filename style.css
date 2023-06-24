@@ -43,7 +43,6 @@ body {
 	font-size: 16px;
 	font-family: 'Red Hat Display', sans-serif;
 	text-align: center;
-	line-height: 1.5;
 }
 main {
 	display: flex;
@@ -60,11 +59,12 @@ main {
 
 .order-summary-container {
 	
-	max-width:28.75rem;
-	height: 100%;
+	max-width:28.175rem;
+    height: 100%;
 	background-color: var(--white);
 	box-shadow: 0px 35px 5px var(--pale-blue);
 	border-radius: 1rem;
+	margin: auto;
 }
 .order-summary-image {
 	border-radius: 1rem;
@@ -74,7 +74,7 @@ main {
 	border-radius: 1rem 1rem 0 0rem;
 }
 .order-summary-description {
-	width: 21.195rem;
+	width: 200px;
 	margin: auto;
 }
 .order-summary-heading {
@@ -102,7 +102,7 @@ main {
 }
 .order-summary-tag {
 	font-size: 0.8rem;
-	font-weight: 900;
+	font-weight: 700;
 	color: var(--dark-blue);
 }
 .order-summary-prize {
