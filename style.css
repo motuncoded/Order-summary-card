@@ -152,23 +152,4 @@ main {
 	main {
 		background-image: url('/images/pattern-background-mobile.svg');
 	}
-	.order-summary-container {
-		width: 22rem;
-	}
-	.order-summary-wrapper {
-		width: 17.43rem;
-	}
-	.order-summary-description {
-		padding: 0;
-		width: 17.43rem;
-	}
-	.order-summary-heading {
-		font-size: 1.15rem;
-	}
-	.order-summary-paragraph {
-		font-size: 1.05rem;
-	}
-	.order-summary-button {
-		width: 17.43rem;
-	}
 }
