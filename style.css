@@ -60,7 +60,7 @@ main {
 
 .order-summary-container {
 	
-	width: 28.125rem;
+	max-width:28.75rem;
 	height: 100%;
 	background-color: var(--white);
 	box-shadow: 0px 35px 5px var(--pale-blue);
@@ -74,7 +74,7 @@ main {
 	border-radius: 1rem 1rem 0 0rem;
 }
 .order-summary-description {
-	width: 20rem;
+	width: 21.195rem;
 	margin: auto;
 }
 .order-summary-heading {
