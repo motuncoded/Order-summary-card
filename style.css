@@ -59,6 +59,7 @@ main {
 }
 
 .order-summary-container {
+	
 	width: 25.625rem;
 	height: 100%;
 	background-color: var(--white);
@@ -78,7 +79,7 @@ main {
 }
 .order-summary-heading {
 	color: var(--dark-blue);
-	padding: 0.5rem;
+	padding: 1rem;
 	font-weight: 700;
 }
 .order-summary-paragraph {
@@ -117,7 +118,7 @@ main {
 	text-decoration: none;
 }
 .order-summary-button {
-	width: 20rem;
+	padding: 1rem 0;
 	margin: auto;
 }
 .order-summary-primary-button {
