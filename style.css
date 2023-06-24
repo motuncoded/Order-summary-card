@@ -60,7 +60,7 @@ main {
 
 .order-summary-container {
 	
-	width: 25.625rem;
+	width: 28.125rem;
 	height: 100%;
 	background-color: var(--white);
 	box-shadow: 0px 35px 5px var(--pale-blue);
@@ -87,7 +87,6 @@ main {
 	color: var(--saturated-blue);
 }
 .order-summary-wrapper {
-	max-width: 20rem;
 	margin: 1.5rem auto;
 	border-radius: 1rem;
 }
