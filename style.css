@@ -137,16 +137,15 @@ main {
 	color: var(--dark-blue);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 	main {
 		background-image: url('/images/pattern-background-mobile.svg');
 	}
 	.order-summary-container{
-		width: 325px;
-		height: 550px;
+		width: 320px;
 
 	}
 	.order-summary-description{
-		width: 240px;
+		width: 250px;
 	}
 }
