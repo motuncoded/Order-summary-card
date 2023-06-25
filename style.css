@@ -24,14 +24,15 @@ svg {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 0.25rem ;
-	background-color: var(--Pale-blue);
+padding: 1rem;	
+background-color: var(--Pale-blue);
 }
 .inline-flex {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem;
 	margin: 0.5rem;
 }
 html {
@@ -79,9 +80,12 @@ main {
 }
 .order-summary-paragraph {
 	line-height: 1.3;
+	padding: 1rem;
+
 	color: var(--saturated-blue);
 }
 .order-summary-wrapper {
+
 	margin: 1.5rem auto;
 	border-radius: 1rem;
 }
