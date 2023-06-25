@@ -24,7 +24,7 @@ svg {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 0.25rem 0;
+	padding: 0.25rem ;
 	background-color: var(--Pale-blue);
 }
 .inline-flex {
@@ -87,8 +87,10 @@ main {
 }
 
 .icon {
-	width: 20px;
-	height: 20px;
+	display: flex;
+	align-items: center;
+	width: 35px;
+	margin: auto;
 	border-radius: 50%;
 	background-color: var(--pale-blue);
 }
