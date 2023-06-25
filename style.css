@@ -58,7 +58,7 @@ main {
 }
 
 .order-summary-container {
-	width:375px;
+	width:420px;
 	background-color: var(--white);
 	box-shadow: 0px 35px 5px var(--pale-blue);
 	border-radius: 1rem;
