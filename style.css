@@ -142,10 +142,10 @@ main {
 		background-image: url('/images/pattern-background-mobile.svg');
 	}
 	.order-summary-container{
-		width: 375px;
+		width: 320px;
 
 	}
 	.order-summary-description{
-		width: 275px;
+		width: 220px;
 	}
 }
