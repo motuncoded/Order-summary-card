@@ -73,12 +73,11 @@ main {
 }
 .order-summary-heading {
 	color: var(--dark-blue);
-	padding: 1rem 0;
+	padding: 1.5rem 0 ;
 	font-weight: 700;
 }
 .order-summary-paragraph {
 	line-height: 1.3;
-	padding: 1rem;
 
 	color: var(--saturated-blue);
 }
