@@ -59,10 +59,10 @@ main {
 }
 
 .order-summary-container {
-	width:420px;
+	width:450px;
 	background-color: var(--white);
 	box-shadow: 0px 35px 5px var(--pale-blue);
-	border-radius: 1rem;
+	border-radius: 1.5rem;
 }
 
 
@@ -70,12 +70,12 @@ main {
 	border-radius: 1rem 1rem 0 0rem;
 }
 .order-summary-description {
-	width:300px;
+	width:350px;
 	margin: auto;
 }
 .order-summary-heading {
 	color: var(--dark-blue);
-	padding: 1rem;
+	padding: 1rem 0;
 	font-weight: 700;
 }
 .order-summary-paragraph {
@@ -148,10 +148,12 @@ main {
 		background-image: url('/images/pattern-background-mobile.svg');
 	}
 	.order-summary-container{
-		width: 300px;
+		width: 375px;
 
 	}
+	.order-summary-container>img{
+	}
 	.order-summary-description{
-		width: 275px;
+		width: 350px;
 	}
 }
